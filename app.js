@@ -4,7 +4,7 @@ const bodyParser = require('bosy-parser');
 const mongoose = require('mongoose');
 
 //Load config
-const config
+const config = require('./config');
 const port = process.env.PORT || 3000;
 
 //Express configuration
